@@ -18,7 +18,7 @@ $ npm install -g warriorjs-ja
 
 > **インストール上の注意**
 
-> `npm` コマンドを実行する前に Node.js をコンピュータにインストールする必要なあります。[公式インストーラ](https://nodejs.org)からのインストールを推奨します。
+> `npm`コマンドを実行する前に Node.js をコンピュータにインストールする必要なあります。[公式インストーラ](https://nodejs.org)からのインストールを推奨します。
 
 ## 使い方
 
@@ -40,9 +40,9 @@ class Player {
 
 > `$ warriorjs-ja --help`を実行することで、ゲームをカスタマイズするために使用できるオプションを表示できます。
 
-## Objective
+## 目的
 
-Your objective is to fill the `playTurn` method with commands to instruct the warrior what to do. With each level, your abilities will grow along with the difficulty. See the README in your profile's directory for details on what abilities your warrior has available on the current level.
+あなたの目的は、`playTurn`メソッドにコマンドを記入することで、戦士に何をすべきか指示を与えることです。戦士が現在のレベルで利用できる能力の詳細については、プロファイルディレクトの README を参照してください。
 
 Here is a simple example which will instruct the warrior to attack if he feels an enemy, otherwise he will walk forward:
 
