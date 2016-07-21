@@ -1,6 +1,6 @@
 {
-  "name": "warriorjs",
-  "version": "3.0.0",
+  "name": "warriorjs-ja",
+  "version": "0.0.1",
   "bin": "./bin/warriorjs",
   "description": "Game written in JavaScript for learning JavaScript and artificial intelligence",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/olistic/warriorjs.git"
+    "url": "https://github.com/ixkaito/warriorjs-ja.git"
   },
   "keywords": [
     "es6",
@@ -33,11 +33,14 @@
     "cli"
   ],
   "author": "Matias Olivera <moliverafreire@gmail.com>",
+  "contributors": [
+    "Kite <ixkaito@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/olistic/warriorjs/issues"
+    "url": "https://github.com/ixkaito/warriorjs-ja/issues"
   },
-  "homepage": "https://github.com/olistic/warriorjs",
+  "homepage": "https://github.com/ixkaito/warriorjs-ja",
   "devDependencies": {
     "babel-cli": "^6.10.1",
     "babel-eslint": "^6.1.1",

@@ -1,6 +1,6 @@
 ![banner](https://s3.amazonaws.com/f.cl.ly/items/2z1v1z1v0i1j0y192k30/WarriorJS%20Banner.png)
 
-*Special thanks to [guillecura](https://dribbble.com/guillecura) for the logo.*
+*[guillecura](https://dribbble.com/guillecura) さんのロゴ制作に心から感謝します。*
 
 [![Travis](https://img.shields.io/travis/olistic/warriorjs.svg?style=flat-square)](https://travis-ci.org/olistic/warriorjs)
 [![npm](https://img.shields.io/npm/v/warriorjs.svg?style=flat-square)](https://www.npmjs.com/package/warriorjs)
@@ -13,7 +13,7 @@ You play as a warrior climbing a tall tower to `<insert something that motivates
 ## Installation
 
 ```bash
-$ npm install -g warriorjs
+$ npm install -g warriorjs-ja
 ```
 
 > **Note on Installation**
@@ -23,7 +23,7 @@ $ npm install -g warriorjs
 ## Usage
 
 ```bash
-$ warriorjs
+$ warriorjs-ja
 ```
 
 That's it! This will create a warriorjs directory in your current location, where you will find a Player.js file in your profile's directory containing the Player class:
@@ -38,7 +38,7 @@ class Player {
 
 > **Note on CLI**
 
-> Run `$ warriorjs --help` to see the options you can use to customize the game.
+> Run `$ warriorjs-ja --help` to see the options you can use to customize the game.
 
 ## Objective
 
@@ -231,7 +231,7 @@ Once you reach the top of the tower, you will enter Epic mode. When running `war
 Your warrior will most likely not succeed the first time around, so use the -l option on levels you are having difficulty or want to fine-tune the scoring.
 
 ```bash
-$ warriorjs -l 4
+$ warriorjs-ja -l 4
 ```
 
 Once your warrior reaches the top again, you will receive an average grade, along with a grade for each level. The grades from best to worst are S, A, B, C, D and F. Try to get S on each level for the ultimate score!
