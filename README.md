@@ -8,7 +8,7 @@
 
 これは JavaScript と人工知能を、インタラクティブで楽しい方法で教えるために設計されたゲームです。
 
-あなたは巨塔の最上階で`＜ここにあなたのモチベーションとなる何かを挿入＞`するため、それを登る戦士としてプレーします。各階で敵と戦い、捕虜を救助し、階段に到達するためには、JavaScript (ES2015 フルサポート) を書いて戦士に指示を与える必要があります。
+あなたは巨塔の最上階で`＜ここにあなたのモチベーションとなる何かを挿入＞`するため、それを登る戦士としてプレーします。各階で敵と戦い、捕虜を救出し、階段に到達するためには、JavaScript (ES2015 フルサポート) を書いて戦士に指示を与える必要があります。
 
 ## インストール
 
@@ -68,19 +68,19 @@ Player.js の編集が完了したら、ファイルを保存し、その階を�
 
 成功（階段に到達）すると、プロファイルの README は次の階のために更新されます。次の階をプレーするには、Player.js ファイルを変更し、再度`warriorjs-ja`を実行してください。
 
-## Scoring
+## 得点
 
-Your objective is to not only reach the stairs, but to get the highest score you can. There are many ways you can earn points on a level.
+あなたの目標は階段に到達することだけではなく、最高得点を獲得することでもあります。多くの方法でポイントを得るができます。
 
-* defeat an enemy to add his max health to your score
+* 敵を倒すことで、その体力の最大値が得点に加算されます
 
-* rescue a captive to earn 20 points
+* 捕虜を救出することで、20ポイントを獲得できます
 
-* pass the level within the bonus time to earn the amount of bonus time remaining
+* ボーナスタイム内で成功することで、ボーナスタイムの残量を得点として得ることが出来ます
 
-* defeat all enemies and rescue all captives to receive a 20% overall bonus
+* すべての敵を倒し、すべての捕虜を救出することで、得点の20%をボーナスとして獲得することができます
 
-A total score is kept as you progress through the levels. When you pass a level, that score is added to your total.
+登ってきた階の合計得点は保存されます。階を通過するごとにその階の得点は合計得点に加算されます。
 
 ## Perspective
 
