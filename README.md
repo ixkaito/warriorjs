@@ -6,7 +6,7 @@
 [![npm](https://img.shields.io/npm/v/warriorjs.svg?style=flat-square)](https://www.npmjs.com/package/warriorjs)
 [![Gitter](https://img.shields.io/gitter/room/olistic/warriorjs.svg?style=flat-square)](https://gitter.im/olistic/warriorjs)
 
-WarriorJS は、インタラクティブな方法で JavaScript と人工知能を楽しく教えるために設計されたゲームです。
+WarriorJS-ja は、インタラクティブな方法で JavaScript と人工知能を楽しく教えるために設計されたゲーム [WarriorJS](https://github.com/olistic/warriorjs) の日本語版です。
 
 あなたは、巨塔の最上階で`＜ここにあなたのモチベーションとなる何かを挿入＞`するため、それを登る戦士としてプレーします。各階で敵と戦い、捕虜を救出し、次の階につながる階段へ到達するためには、JavaScript (ES2015 フルサポート) を書いて戦士に指示を与える必要があります。
 
