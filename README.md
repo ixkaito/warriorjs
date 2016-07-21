@@ -1,6 +1,6 @@
 ![banner](https://s3.amazonaws.com/f.cl.ly/items/2z1v1z1v0i1j0y192k30/WarriorJS%20Banner.png)
 
-*[guillecura](https://dribbble.com/guillecura) さんのロゴ制作に心から感謝します。*
+*ロゴを制作してくれた [guillecura](https://dribbble.com/guillecura) さんに心から感謝します。*
 
 [![Travis](https://img.shields.io/travis/olistic/warriorjs.svg?style=flat-square)](https://travis-ci.org/olistic/warriorjs)
 [![npm](https://img.shields.io/npm/v/warriorjs.svg?style=flat-square)](https://www.npmjs.com/package/warriorjs)
