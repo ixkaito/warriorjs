@@ -8,7 +8,7 @@
 
 これは JavaScript と人工知能を、インタラクティブで楽しい方法で教えるために設計されたゲームです。
 
-あなたは巨塔の最上階で`＜ここにあなたのモチベーションとなる何かを挿入＞`するため、それを登る戦士としてプレイします。各階で敵と戦い、捕虜を救助し、階段に到達するためには、JavaScript (ES2015 フルサポート) を書いて戦士に指示を与える必要があります。
+あなたは巨塔の最上階で`＜ここにあなたのモチベーションとなる何かを挿入＞`するため、それを登る戦士としてプレーします。各階で敵と戦い、捕虜を救助し、階段に到達するためには、JavaScript (ES2015 フルサポート) を書いて戦士に指示を与える必要があります。
 
 ## インストール
 
@@ -42,9 +42,9 @@ class Player {
 
 ## 目的
 
-あなたの目的は、`playTurn`メソッドにコマンドを記入することで、戦士に何をすべきか指示を与えることです。戦士が現在のレベルで利用できる能力の詳細については、プロファイルディレクトの README を参照してください。
+あなたの目的は、`playTurn`メソッドに命令を記入することで、戦士に何をすべきか指示を与えることです。各階で、戦士の能力は難易度とともに成長します。現在の階で戦士が利用できる能力の詳細については、プロファイルディレクトの README を参照してください。
 
-これは敵に触れた場合は攻撃し、それ以外の場合は前進する指示を戦士に与える簡単な例です：
+これは、敵に触れた場合は攻撃し、それ以外の場合は前進する指示を戦士に与える簡単な例です：
 
 ```javascript
 class Player {
@@ -58,15 +58,15 @@ class Player {
 }
 ```
 
-## Playing
+## プレー
 
-Once you are done editing Player.js, save the file and run the `warriorjs` command again to start playing the level. The play happens through a series of turns. On each one, your `playTurn` method is called along with any enemy's.
+Player.js の編集が完了したら、ファイルを保存し、その階をプレーするには再度`warriorjs-ja`コマンドを実行してください。一連のターンの再生が始まります。各ターンでは、プレイヤーと敵の`playTurn`メソッドが一緒に実行されます。
 
-You cannot change your code in the middle of a level. You must take into account everything that may happen on that level and give your warrior the proper instructions from the start.
+階の途中でコードを変更することはできません。初めから、その階で起こりえるすべてのことを考慮に入れ、戦士に適切な指示を与える必要があります。
 
-Losing all of your health will cause you to fail the level. You are not punished by this, you simply need to go back to your Player.js file, improve your code, and try again.
+体力 (health) を全て失うとその階は失敗になります。失敗による罰はありません。Player.js ファイルに戻り、コードを改善して再試行してください。
 
-Once you pass a level (by reaching the stairs), the profile README will be updated for the next level. Alter the Player.js file and run `warriorjs` again to play the next level.
+成功（階段に到達）すると、プロファイルの README は次の階のために更新されます。次の階をプレーするためには、Player.js ファイルを変更し、再度`warriorjs-ja`を実行してください。
 
 ## Scoring
 
