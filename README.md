@@ -44,7 +44,7 @@ class Player {
 
 あなたの目的は、`playTurn`メソッドにコマンドを記入することで、戦士に何をすべきか指示を与えることです。戦士が現在のレベルで利用できる能力の詳細については、プロファイルディレクトの README を参照してください。
 
-Here is a simple example which will instruct the warrior to attack if he feels an enemy, otherwise he will walk forward:
+これは敵に触れた場合は攻撃し、それ以外の場合は前進する指示を戦士に与える簡単な例です：
 
 ```javascript
 class Player {
