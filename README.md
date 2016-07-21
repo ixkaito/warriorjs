@@ -20,13 +20,13 @@ $ npm install -g warriorjs-ja
 
 > `npm` コマンドを実行する前に Node.js をコンピュータにインストールする必要なあります。[公式インストーラ](https://nodejs.org)からのインストールを推奨します。
 
-## Usage
+## 使い方
 
 ```bash
 $ warriorjs-ja
 ```
 
-That's it! This will create a warriorjs directory in your current location, where you will find a Player.js file in your profile's directory containing the Player class:
+以上！現在の場所に warriorjs ディレクトリが作成され、その中の Player クラスを含んだプロファイルディレクトリで Player.js ファイルを見つけることができます。
 
 ```javascript
 class Player {
@@ -36,9 +36,9 @@ class Player {
 }
 ```
 
-> **Note on CLI**
+> **CLI メモ**
 
-> Run `$ warriorjs-ja --help` to see the options you can use to customize the game.
+> `$ warriorjs-ja --help`を実行することで、ゲームをカスタマイズするために使用できるオプションを表示できます。
 
 ## Objective
 
