@@ -16,9 +16,9 @@
 $ npm install -g warriorjs-ja
 ```
 
-> **Note on Installation**
+> **インストール上の注意**
 
-> Node.js needs to be installed in your computer before running the `npm` command. The recommended installation method is through the [official installer](https://nodejs.org).
+> `npm` コマンドを実行する前に Node.js をコンピュータにインストールする必要なあります。[公式インストーラ](https://nodejs.org)からのインストールを推奨します。
 
 ## Usage
 
