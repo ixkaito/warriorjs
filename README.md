@@ -6,11 +6,11 @@
 [![npm](https://img.shields.io/npm/v/warriorjs.svg?style=flat-square)](https://www.npmjs.com/package/warriorjs)
 [![Gitter](https://img.shields.io/gitter/room/olistic/warriorjs.svg?style=flat-square)](https://gitter.im/olistic/warriorjs)
 
-This is a game designed to teach JavaScript and artificial intelligence in a fun, interactive way.
+これは JavaScript と人工知能を、インタラクティブで楽しい方法で教えるために設計されたゲームです。
 
-You play as a warrior climbing a tall tower to `<insert something that motivates you here>` at the top level. On each floor, you need to write JavaScript (with full ES2015 support) to instruct the warrior to battle enemies, rescue captives, and reach the stairs.
+あなたは高い塔を登る戦士として、最上階で`＜ここにあなたのモチベーションとなる何かを挿入＞`するためにプレイします。各階で敵と戦い、捕虜を救助し、階段に到達するためには、JavaScript (ES2015 フルサポート) を書いて戦士に指示を与える必要があります。
 
-## Installation
+## インストール
 
 ```bash
 $ npm install -g warriorjs-ja
