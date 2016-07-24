@@ -82,9 +82,9 @@ Player.js の編集が完了したら、ファイルを保存し、その階を�
 
 登ってきた階の合計得点は記録されます。階を通過するごとにその階の得点は合計得点に加算されます。
 
-## Perspective
+## 見方
 
-Even though this is a text-based game, think of it as two-dimensional where you are viewing from overhead. Each level is always rectangular in shape and is made up of a number of squares. Only one unit can be on a given square at a time, and your objective is to find the square with the stairs. Here is an example level map and key:
+このゲームはテキストベースではあるが、上空から俯瞰している2Dゲームと考えてください。すべての階は長方形であり、複数のマスによって構成されています。1マスには一つの要素しか存在することができません。あなたの目的は階段のあるマスを見つけることです。下記はフロアマップと要素の一例です：
 
 ```
 ╔════╗
@@ -93,11 +93,11 @@ Even though this is a text-based game, think of it as two-dimensional where you 
 ║C @ ║
 ╚════╝
 
-> = Stairs
-@ = Warrior (20 HP)
-s = Sludge (12 HP)
-S = Thick Sludge (24 HP)
-C = Captive (1 HP)
+> = 階段
+@ = 戦士 (20 HP)
+s = スライム (12 HP)
+S = 強スライム (24 HP)
+C = 捕虜 (1 HP)
 ```
 
 ## Abilities
