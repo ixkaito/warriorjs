@@ -42,7 +42,7 @@ class Player {
 
 ## 目的
 
-あなたの目的は、`playTurn`メソッドに命令を記入することで、戦士に何をすべきか指示を与えることです。各階で、戦士の能力は難易度とともに成長します。現在の階で戦士が利用できる能力の詳細については、プロファイルディレクトの README を参照してください。
+あなたの目的は、`playTurn`メソッドに命令を記入することで、戦士に何をすべきか指示を与えることです。各階で、戦士のアビリティは難易度とともに成長します。現在の階で戦士が利用できるアビリティの詳細については、プロファイルディレクトの README を参照してください。
 
 下記は、敵に触れた場合は攻撃し、それ以外の場合は前進する指示を戦士に与える簡単な例です：
 
@@ -100,9 +100,10 @@ S = 強スライム (24 HP)
 C = 仲間 (1 HP)
 ```
 
-## Abilities
+## アビリティ
 
-When you first start, your warrior will only have a few abilities, but with each level your abilities will grow. A warrior has two kinds of abilities: [Actions](#actions) and [Senses](#senses).
+はじめは、戦士はわずかなアビリティしか持っていないが、階が上がるのにつれてアビリティは成長します。大きく分けて二種類のアビリティがあります：[アクション](#actions) と [センス](#senses)。
+
 
 > **Note on Abilities**
 
