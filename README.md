@@ -104,10 +104,10 @@ C = 仲間 (1 HP)
 
 はじめは、戦士はわずかなアビリティしか持っていないが、階が上がるのにつれてアビリティは成長します。大きく分けて二種類のアビリティがあります：[アクション](#actions) と [センス](#senses)。
 
+> **アビリティメモ**
 
-> **Note on Abilities**
+> 多くのアビリティは、下記の向きで行うことができます：forward (前) 、backward (後) 、left (左) 、right (右) 。最初の引数として向きの文字列を渡す必要があります。例：`warrior.walk('backward');`。
 
-> Many abilities can be performed in the following directions: forward, backward, left and right. You have to pass a string with the direction as the first argument, e.g. `warrior.walk('backward');`.
 
 ### Actions
 
