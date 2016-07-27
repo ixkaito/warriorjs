@@ -108,24 +108,23 @@ C = 仲間 (1 HP)
 
 > 多くのアビリティは、下記の向きで行うことができます：forward (前) 、backward (後) 、left (左) 、right (右) 。最初の引数として向きの文字列を渡す必要があります。例：`warrior.walk('backward');`。
 
-
 ### アクション (行動)
 
-An *action* is something that affects the game in some way. **Only one action can be performed per turn**, so choose wisely.
+*アクション*はどこかでゲームに影響を与えます。**ターンごとに実行できるアクションは一つのみです**ので、賢い選択をしてください。
 
-Here is the complete list of actions:
+下記はアクションの一覧です：
 
 #### `warrior.walk([direction])`:
 
-Move in given direction (forward by default).
+与えられた方向に移動します (デフォルトで前方) 。
 
 #### `warrior.attack([direction])`:
 
-Attack a unit in given direction (forward by default).
+与えられた方向の要素を攻撃します (デフォルトで前方) 。
 
 #### `warrior.rest()`:
 
-Gain 10% of max health back, but do nothing more.
+最大体力の10%を回復します。最大体力を超えることはありません。
 
 #### `warrior.rescue([direction])`:
 
