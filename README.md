@@ -102,14 +102,14 @@ C = 仲間 (1 HP)
 
 ## アビリティ
 
-はじめは、戦士はわずかなアビリティしか持っていないが、階が上がるのにつれてアビリティは成長します。大きく分けて二種類のアビリティがあります：[アクション](#actions) と [センス](#senses)。
+はじめは、戦士はわずかなアビリティしか持っていないが、階が上がるにつれてアビリティは成長します。大きく分けて二種類のアビリティがあります：[アクション](#actions) と [センス](#senses)。
 
 > **アビリティメモ**
 
 > 多くのアビリティは、下記の向きで行うことができます：forward (前) 、backward (後) 、left (左) 、right (右) 。最初の引数として向きの文字列を渡す必要があります。例：`warrior.walk('backward');`。
 
 
-### Actions
+### アクション (行動)
 
 An *action* is something that affects the game in some way. **Only one action can be performed per turn**, so choose wisely.
 
@@ -151,7 +151,7 @@ Detonate a bomb in a given direction (forward by default) which damages that spa
 
 Kills you and all surrounding units. You probably don't want to do this intentionally.
 
-### Senses
+### センス (感知)
 
 A *sense* is something which gathers information about the floor. You can perform senses as often as you want per turn to gather information about your surroundings and to aid you in choosing the proper action.
 
