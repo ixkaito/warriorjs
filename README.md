@@ -116,11 +116,11 @@ C = 仲間 (1 HP)
 
 #### `warrior.walk([direction])`:
 
-与えられた方向に移動します (デフォルトで前方) 。
+与えられた方向 (デフォルトで前方) に移動します。
 
 #### `warrior.attack([direction])`:
 
-与えられた方向の要素を攻撃します (デフォルトで前方) 。
+与えられた方向 (デフォルトで前方) の要素を攻撃します。
 
 #### `warrior.rest()`:
 
@@ -128,27 +128,27 @@ C = 仲間 (1 HP)
 
 #### `warrior.rescue([direction])`:
 
-Rescue a captive from his chains (earning 20 points) in given direction (forward by default).
+与えられた方向 (デフォルトで前方) の仲間を救出します (20ポイントを獲得) 。
 
 #### `warrior.pivot([direction])`:
 
-Rotate left, right or backward (default).
+左、右、もしくは後方 (デフォルト) に向きを変えます。
 
 #### `warrior.shoot([direction])`:
 
-Shoot your bow & arrow in given direction (forward by default).
+与えられた方向 (デフォルトで前方) に弓矢を放つ。
 
 #### `warrior.bind([direction])`:
 
-Bind a unit in given direction to keep him from moving (forward by default).
+与えられた方向 (デフォルトで前方) の要素を縛って動けないようにする。
 
 #### `warrior.detonate([direction])`:
 
-Detonate a bomb in a given direction (forward by default) which damages that space and surrounding 4 spaces (including yourself).
+与えられた方向 (デフォルトで前方) の爆弾を爆発させる。周囲4マス (自分自身も含む) にダメージを与えます。
 
 #### `warrior.explode()`:
 
-Kills you and all surrounding units. You probably don't want to do this intentionally.
+自分自身と周囲すべての要素を爆発させる。おそらく意図的にこれをしたくはないでしょう。
 
 ### センス (感知)
 
