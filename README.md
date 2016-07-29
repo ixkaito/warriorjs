@@ -158,7 +158,7 @@ C = 仲間 (1 HP)
 
 #### `warrior.feel([direction])`:
 
-Return a [Space](#spaces) for the given direction (forward by default).
+与えられた方向 (デフォルトで前方) の1[スペース](#spaces)を返します。
 
 #### `warrior.health()`:
 
