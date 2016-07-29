@@ -152,9 +152,9 @@ C = 仲間 (1 HP)
 
 ### センス (感知)
 
-A *sense* is something which gathers information about the floor. You can perform senses as often as you want per turn to gather information about your surroundings and to aid you in choosing the proper action.
+*センス*とは、現在の階の情報を収集するアビリティです。周囲の確認や適切なアクションの選択のため、必要なときにセンスを行うことができます。
 
-Here is the complete list of senses:
+下記はセンスの一覧です：
 
 #### `warrior.feel([direction])`:
 
