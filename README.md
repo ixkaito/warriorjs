@@ -184,9 +184,9 @@ C = 仲間 (1 HP)
 
 要素を持つすべてのスペースを配列で返します。
 
-> **Note on Senses**
+> **センスメモ**
 
-> Since what you sense will change each turn, you should record what information you gather for use on the next turn. For example, you can determine if you are being attacked if your health has gone down since the last turn.
+> 感知した情報はターンごとに変化するので、次のターンで使用するため集めた情報は、記録しておく必要があります。例えば、体力が前のターンよりも減っているかどうかで、攻撃されているかどうかを確認することができます。
 
 ## スペース
 
