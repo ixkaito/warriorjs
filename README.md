@@ -158,37 +158,37 @@ C = 仲間 (1 HP)
 
 #### `warrior.feel([direction])`:
 
-与えられた方向 (デフォルトで前方) の1[スペース](#spaces)を返します。
+与えられた方向 (デフォルトで前方) の1[スペース](#スペース)を返します。
 
 #### `warrior.health()`:
 
-Return an integer representing your current health.
+現在の体力の数値を返します。
 
 #### `warrior.look([direction])`:
 
-Return an array of up to three [Spaces](#spaces) in the given direction (forward by default).
+与えられた方向 (デフォルトで前方) の最大3[スペース](#スペース)の配列を返します。
 
 #### `warrior.directionOfStairs()`:
 
-Return the direction the stairs are from your location.
+現在の位置から見た階段のある方向を返します。
 
 #### `warrior.directionOf(space)`:
 
-Pass a [Space](#spaces) as an argument, and the direction to that space will be returned.
+引数として[スペース](#スペース)を渡すことで、そのスペースの方向が返されます。
 
 #### `warrior.distanceOf(space)`:
 
-Pass a [Space](#spaces) as an argument, and it will return an integer representing the distance to that space.
+引数として[スペース](#スペース)を渡すことで、そのスペースまでの距離を表す数値を返します。
 
 #### `warrior.listen()`:
 
-Return an array of all spaces which have units in them.
+要素を持つすべてのスペースを配列で返します。
 
 > **Note on Senses**
 
 > Since what you sense will change each turn, you should record what information you gather for use on the next turn. For example, you can determine if you are being attacked if your health has gone down since the last turn.
 
-## Spaces
+## スペース
 
 A *space* is an object representing a square in the level. Whenever you sense an area, often one or multiple spaces (in an array) will be returned.
 
