@@ -190,9 +190,9 @@ C = 仲間 (1 HP)
 
 ## スペース
 
-A *space* is an object representing a square in the level. Whenever you sense an area, often one or multiple spaces (in an array) will be returned.
+*スペース*はマップのマスを表します。あるエリアに対してセンスを行った場合、通常一つまたは複数の (一つの配列で) スペースが返されます。
 
-You can call methods on a space to gather information about what is there. Here are the various methods that are available to you:
+あるスペースに対してメソッドを呼び出すことで、そこに何があるかについての情報を収集することができます。下記は利用可能なメソッド一覧です：
 
 #### `space.isEmpty()`:
 
