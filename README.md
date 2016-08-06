@@ -196,27 +196,29 @@ C = 仲間 (1 HP)
 
 #### `space.isEmpty()`:
 
-If `true`, this means that nothing (except maybe stairs) is at this location and you can walk here.
+`true`の場合、そこの場所には何もなく (階段を除く) 、ここまで歩けることを意味します。
 
 #### `space.isStairs()`:
 
-Determine if stairs are at that location.
+そこの場所に階段があるかどうかを確認します。
 
 #### `space.isEnemy()`:
 
-Determine if an enemy unit is at this location.
+そこの場所に敵がいるかどうかを確認します。
 
 #### `space.isCaptive()`:
 
-Determine if a captive is at this location.
+そこの場所に捕まっている仲間がいるかどうかを確認します。
 
 #### `space.isWall()`:
 
-Return `true` if this is the edge of the level. You can't walk here.
+ここが階の端であれば`true`を返します。ここまで歩くことはできません。
 
 #### `space.isTicking()`:
 
 Return `true` if this space contains a bomb which will explode in time.
+
+このスペースにやがて爆発する爆弾が含まれている場合`true`を返します。
 
 > **Note on Spaces**
 
