@@ -220,9 +220,9 @@ Return `true` if this space contains a bomb which will explode in time.
 
 このスペースにやがて爆発する爆弾が含まれている場合`true`を返します。
 
-> **Note on Spaces**
+> **スペースメモ**
 
-> You will often call these methods directly after a sense. For example, the `feel` sense returns one `Space`. You can call `isCaptive()` on this to determine if a captive is in front of you:
+> 多くの場合、センスの直後にこれらのメソッドを呼び出すことになります。例えば、`feel`センスは1`space`を返します。これに対して`isCaptive()`を呼び出すことで、目の前に捕まっている仲間がいるかどうかを確認することができます。
 
 > `warrior.feel().isCaptive();`
 
