@@ -238,15 +238,15 @@ $ warriorjs-ja -l 4
 
 戦士が再び頂上に到達すると、すべての階を合わせた平均成績を受け取ることができます。成績の最高から最低は S、A、B、C、D、そして F です。最高得点を獲得して、すべての階で S をゲットしてみてください。
 
-## Tips & hints
+## ティップスとヒント
 
-### General
+### 全体
 
-* If you ever get stuck on a level, review the README documentation and be sure you're trying each ability out. If you can't keep your health up, be sure to rest when no enemy is around (while keeping an eye on your health). Also, try to use far-ranged weapons whenever possible (such as the bow).
+* もしある階で行き詰まった場合は、README ドキュメンテーションを見直し、すべてのアビリティを試しているかどうかを確認してください。もし体力を維持できない場合は、周りに敵がいないときに (体力に注意しながら) 回復してください。また、可能なかぎり遠距離武器 (例えば弓など) を使用してください。
 
-* Remember, you're working in JavaScript here. Don't simply fill up the `playTurn` method with a lot of code. Organize it with methods and classes.
+* JavaScript で作業していることを忘れないでください。ただ単に多くのコードで`playTurn`メソッドを埋めないでください。メソッドやクラスを使って整理しましょう。
 
-* Senses are cheap, so use them liberally. Store the sensed information to help you better determine what actions to take in the future.
+* センスは安いので、気軽に使用してください。感知された情報を保存しておくことで、この先何のアクションを行うべきかについてのよりよい判断に役立ててください。
 
 * Running `warriorjs` while you are in your profile directory will auto-select that profile so you don't have to each time.
 
