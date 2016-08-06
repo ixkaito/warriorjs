@@ -226,17 +226,17 @@ Return `true` if this space contains a bomb which will explode in time.
 
 > `warrior.feel().isCaptive();`
 
-## Epic mode
+## エピックモード
 
-Once you reach the top of the tower, you will enter Epic mode. When running `warriorjs` again, it will run your current Player.js through all levels in the tower without stopping.
+一度塔の頂上に到達すると、エピックモードに突入します。再び`warriorjs-ja`を実行すると、止まることなく塔内のすべての階に対して現在の Player.js を実行します。
 
-Your warrior will most likely not succeed the first time around, so use the -l option on levels you are having difficulty or want to fine-tune the scoring.
+ほとんどの場合最初は失敗しますので、問題がある、あるいは得点を改善したい階に対して、`-l`オプションを使ってください。
 
 ```bash
 $ warriorjs-ja -l 4
 ```
 
-Once your warrior reaches the top again, you will receive an average grade, along with a grade for each level. The grades from best to worst are S, A, B, C, D and F. Try to get S on each level for the ultimate score!
+戦士が再び頂上に到達すると、すべての階を合わせた平均成績を受け取ることができます。成績の最高から最低は S、A、B、C、D、そして F です。最高得点を獲得して、すべての階で S をゲットしてみてください。
 
 ## Tips & hints
 
