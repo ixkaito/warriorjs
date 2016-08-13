@@ -246,7 +246,7 @@ $ warriorjs-ja -l 4
 
 * JavaScript で作業していることを忘れないでください。ただ単に多くのコードで`playTurn`メソッドを埋めないでください。メソッドやクラスを使って整理しましょう。
 
-* センスは安いので、気軽に使用してください。感知された情報を保存しておくことで、この先何のアクションを行うべきかについてのよりよい判断に役立ててください。
+* センスは気軽に使用できます。感知された情報を保存しておくことで、この先何のアクションを行うべきかについてのよりよい判断に役立ててください。
 
 * Running `warriorjs` while you are in your profile directory will auto-select that profile so you don't have to each time.
 
