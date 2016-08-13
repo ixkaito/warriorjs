@@ -248,7 +248,7 @@ $ warriorjs-ja -l 4
 
 * センスは気軽に使用できます。感知された情報を保存しておくことで、この先何のアクションを行うべきかについてのよりよい判断に役立ててください。
 
-* Running `warriorjs` while you are in your profile directory will auto-select that profile so you don't have to each time.
+* プロファイルディレクトリにいる間は、`warriorjs-ja`を実行すると、プロファイルを自動的に選択します。そのため、実行のたびに選択する必要はありません。
 
 * If you're aiming for points, remember to sweep the area. Even if you're close to the stairs, don't go in until you've gotten everything (if you have the health). Use far-ranged senses (such as look and listen) to determine if there are any enemies left.
 
