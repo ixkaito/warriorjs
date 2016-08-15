@@ -254,12 +254,12 @@ $ warriorjs-ja -l 4
 
 ### ES2015+
 
-* If you want some code to be executed at the beginning of each level, define a [constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor) in the `Player` class, like this:
+* 各階の最初でいくつかのコードを実行したい場合は、下記のように`Player`クラス内で [constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor) を定義してください：
 
 ```javascript
 class Player {
   constructor() {
-    // This code will be executed only once, at the beginning of the level
+    // このコードは、階の最初に一度だけ実行されます
     this._health = 20;
   }
 
