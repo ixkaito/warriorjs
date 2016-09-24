@@ -216,8 +216,6 @@ C = 仲間 (1 HP)
 
 #### `space.isTicking()`:
 
-Return `true` if this space contains a bomb which will explode in time.
-
 このスペースにやがて爆発する爆弾が含まれている場合`true`を返します。
 
 > **スペースメモ**
