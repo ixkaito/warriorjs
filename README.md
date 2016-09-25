@@ -267,7 +267,7 @@ class Player {
 }
 ```
 
-* If you just want to initialize a property, like `_health` in the example above, you can make use of [Class Instance Fields](https://github.com/jeffmo/es-class-fields-and-static-properties#part-1-class-instance-fields):
+* 上記の例の`_health`のように、プロパティのみを初期設定したい場合は、[クラスインスタンスフィールド](https://github.com/jeffmo/es-class-fields-and-static-properties#part-1-class-instance-fields)を利用することができます。
 
 ```javascript
 class Player {
