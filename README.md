@@ -279,7 +279,7 @@ class Player {
 }
 ```
 
-* Some senses (like look and listen) return an array of spaces, so you might find many of the [Array prototype methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Methods) really useful. Here is an example of the [Array.prototype.find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) method:
+* いくつかのセンス (look と listen など) はスペースの配列を返します。[配列プロトタイプメソッド](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Methods)の多くは役に立つかもしれません。下記は [Array.prototype.find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) メソッドの一例です：
 
 ```javascript
 isEnemyInSight(warrior) {
