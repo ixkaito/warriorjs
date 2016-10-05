@@ -292,7 +292,7 @@ isEnemyInSight(warrior) {
 
 ## Credits
 
-This game was originally developed by [@ryanb](https://github.com/ryanb) to teach the Ruby language. Special thanks to him for the original [ruby-warrior](https://github.com/ryanb/ruby-warrior).
+このゲームは元々 Ruby を教えるため [@ryanb](https://github.com/ryanb) さんによって開発されました。オリジナル [ruby-warrior](https://github.com/ryanb/ruby-warrior) を開発した彼に心から感謝します。
 
 ## License
 
