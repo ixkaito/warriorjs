@@ -288,7 +288,7 @@ isEnemyInSight(warrior) {
 }
 ```
 
-* In the example above, you can see the [Arrow functions](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions) in use. Make sure to take a look at them too!
+* 上記の例では、[アロー関数](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions)が使われています。必ず確認しておいてください！
 
 ## Credits
 
