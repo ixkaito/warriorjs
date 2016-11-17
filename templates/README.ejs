@@ -1,8 +1,8 @@
-Level <%- level.number %>
+レベル <%- level.number %>
 
 <%- level.description %>
 
-Tip: <%- level.tip %>
+ヒント: <%- level.tip %>
 
 
 <%- level.floorMap %>
@@ -13,7 +13,7 @@ Tip: <%- level.tip %>
 <% }); -%>
 
 
-Warrior abilities:
+アビリティ:
 <% level.warriorAbilities.existent.forEach(function (ability) { -%>
 
   warrior.<%- ability.name %>()
@@ -24,4 +24,4 @@ Warrior abilities:
 <% }); -%>
 
 
-When you're done editing Player.js, run the warriorjs command again.
+Player.js の編集が完了したら、再度 warriorjs-ja コマンドを実行してください。
