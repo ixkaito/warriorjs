@@ -1,6 +1,6 @@
 {
-    "description": "You see before yourself a long hallway with stairs at the end. There is nothing in the way.",
-    "tip": "Call `warrior.walk()` to walk forward in the Player `playTurn` method.",
+    "description": "あなたの目の前の長い廊下の突き当りには階段があります。道中には何もありません。",
+    "tip": "Player の`playTurn`メソッド内で`warrior.walk()`を呼び出して前進してください。",
 
     "timeBonus": 15,
     "aceScore": 10,
