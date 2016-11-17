@@ -1,6 +1,6 @@
 {
-    "description": "It is too dark to see anything, but you smell sludge nearby.",
-    "tip": "Use `warrior.feel().isEmpty()` to see if there is anything in front of you, and `warrior.attack()` to fight it. Remember, you can only do one action per turn.",
+    "description": "暗すぎて何も見えないが、スライムが近くにいる気配がします。",
+    "tip": "あなたの前に何もないかどうかを確かめるには`warrior.feel().isEmpty()`を使ってください。戦うには`warrior.attack()`を使ってください。ターンごとに実行できるアクションは一つのみということを忘れないでください。",
     "clue": "Add an if/else condition using `warrior.feel().isEmpty() to decide whether to `warrior.attack()` or `warrior.walk()`.",
 
     "timeBonus": 20,
